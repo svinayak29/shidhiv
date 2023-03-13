@@ -6,6 +6,15 @@
   height: 40vmin;
   pointer-events: none;
 }
+.filePicker{
+  background-color: red;
+  color: white;
+  cursor: pointer;
+  border: none;
+  /* outline: none; */
+  padding: 10px;
+  border-radius: 5px;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
