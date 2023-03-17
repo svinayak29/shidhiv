@@ -1,0 +1,64 @@
+.wrapper{
+    /* border: 1px solid red; */
+    width: fit-content;
+    margin: auto;
+    text-align: start;
+    padding: 20px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.wrapper h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.wrapper p {
+    color: grey;
+    margin: 0;
+    font-size: 10px;
+    padding: 10px 0;
+}
+.imputField{
+    width: 250px;
+    height:30px;
+    padding-left: 16px;
+}
+.checkbox{
+    /* margin-top: 10px; */
+    cursor: pointer;
+    margin: 0;
+}
+.checkboxWrapper{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.container{
+    padding-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 10px;
+}
+.buttonStyle{
+    width: 100%;
+    background-color: 	#4267B2;
+    border: 0;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #fff;
+}
+.loginOptions{
+    padding-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+.redirectText{
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px !important;
+}
+.redirectText span {
+    font-size: 12px;
+    color: #4267B2;
+    cursor: pointer;
+
+}
