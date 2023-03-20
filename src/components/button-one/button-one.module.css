@@ -1,0 +1,66 @@
+.buttonStyle{
+    background-color: green;
+    border: none;
+}
+.text {
+    background-color: red;
+}
+
+.headOne{
+    color : blue ;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: start;
+    padding-left: 30px;
+}
+.headTwo{
+    composes : headOne ;
+    color : red ;
+}
+
+/* //  mobile - > 360px - 1024px (mobile)
+
+//  screen size  > 1024px (desktop view) */
+
+/*  mobile -> blue */
+/* desktop -> red */
+
+.changingStyle{
+    color: blue;
+    font-weight: 400;
+    /* font-size: 10px; */
+}
+
+
+
+
+@media screen and (min-width : 1024px){
+
+    .changingStyle{
+        color: red;
+        
+    }
+
+
+
+  
+
+
+
+
+
+
+    /*  css writeen here will get applied to descktop view */
+    /* 1024 to forward */
+    /*  */
+
+
+    
+}
+
+
+
+
+
+
+

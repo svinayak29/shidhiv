@@ -1,0 +1,13 @@
+.button{
+    background-color: red;
+    width: 200px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    font-weight: 700;
+    border-radius: 10px;
+}
+/* .text {
+    background-color: red;
+} */
