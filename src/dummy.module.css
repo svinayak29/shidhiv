@@ -1,0 +1,57 @@
+.heding1{
+    /* border: 1px dashed; */
+    /* text-align: center; */
+    /* padding: 20px; */
+    /* padding : top right bottom left */
+
+    /*  all directionme different  */
+    /* padding : 10px 20px 30px 40px ; */
+
+    /*  top and bottom -?> same  */
+    /*  left and rght same  */
+
+    /* padding : tb rl */
+    /* padding: 50px 100px ; */
+    /* width: 70vw;  */
+    /* width: 70%; */
+    /*  70vw -/> 70 % of available screen size  */
+
+    /* vh -/> view port(screen) height  vw -/> view port(screen) width  */
+
+    /* min (h and w) */
+    /* max (h and w) */
+
+
+}
+.para{
+    background-color: blue;
+    margin-right: 20px;
+    color: white;
+    font-size: 10px;
+}
+
+.wrapper{
+    border: 1px solid red;
+    max-height: 100px;
+    /* overflow: hidden; */
+    overflow: scroll;
+    display: flex;
+    width: 100px;
+    margin: auto; 
+
+    /*  maargin : auto  -/> left and right sides se it will manage the margin  (it will move along x-axis only )*/
+    /* min-height: 500px; */
+    /* width: 50vw; */
+    /* height: 50vh; */
+}
+.wrapper::-webkit-scrollbar {
+    display: none;
+}
+.container{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    rotate:10deg;
+    opacity: 0.7;
+    /*  opacity == visibility 1 */
+}

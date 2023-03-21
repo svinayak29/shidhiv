@@ -2,6 +2,50 @@
   text-align: center;
 }
 
+.heading1{
+  border: 1px solid;
+  display: inline;
+
+
+}
+.heading2{
+  border: 1px solid;
+  display: inline;
+ 
+}
+
+.link1{
+  border: 1px solid red;
+  height: 30px;
+  width: 40px;
+  display: inline-block;
+  /* display: block; */
+  /* margin: 30px;
+
+  height: 300px;
+  width : 400px ;
+  display: block; */
+  /* display: inline-block; */
+  /* height: 300px; */
+  /* width : 400px ; */
+}
+
+.link2{
+  border: 1px solid red;
+  /* display: block; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
