@@ -1,0 +1,46 @@
+
+.wrapper{
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 0 20px;
+    padding-top: 30px;
+}
+.wrapper div {
+    flex:1
+}
+.imgWrapper{
+    position: relative;
+}
+.leftSec h2 {
+    font-size: 16px;
+}
+.leftSec{
+}
+.leftSec p {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+@media screen and (min-width : 1024px) {
+    .wrapper{
+        flex-direction: row;
+        padding: 0 170px;
+    }
+    .rightSec{
+        padding: 1rem;
+    }
+    .imgWrapper{
+        margin: auto;
+        height: 450px;
+        width: 450px;
+    }
+    .leftSec h2{
+        font-size: 40px;
+    }
+    .leftSec {
+        padding-top: 50px;
+    }
+
+
+    
+}

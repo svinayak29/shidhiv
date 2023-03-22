@@ -1,0 +1,36 @@
+
+.wrapper{
+    /* background-color: red; */
+    height: 100vh;
+    /* padding-left: 40px; */
+    /* padding-top: 50px; */
+}
+.wrapper p {
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: start;
+    font-weight: 700;
+}
+
+.wrapper div:first-child{
+    border-bottom: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 10px 20px;
+}
+.wrapper div:last-child{
+    padding-left: 40px;
+    padding-top: 50px;
+}
+
+
+
+
+@media screen and (min-width : 1024px) {
+    .wrapper{
+        display: none;
+    }
+
+    
+}

@@ -1,0 +1,21 @@
+.button{
+    background-color: orange;
+    border: none;
+    color: white;
+    font-weight: 700;
+    width: 150px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: rgb(176, 121, 19);
+}
+
+
+
+@media screen and (min-width : 1024px){
+    
+}

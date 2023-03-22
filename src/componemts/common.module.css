@@ -1,0 +1,9 @@
+.flexOne {
+    display: flex;
+    align-items: center;
+}
+.flexTwo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

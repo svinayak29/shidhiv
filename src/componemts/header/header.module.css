@@ -1,0 +1,74 @@
+.header{
+    height: 70px;
+    padding: 0 20px;
+    background-color: black;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 5 ;
+    composes : flexOne from '../common.module.css'
+}
+.logo{
+    font-size: 30px;
+}
+.companyName{
+    font-size: 15px;
+}
+.logoWrapper{
+    composes : flexOne from '../common.module.css';
+    gap: 10px;
+    width: fit-content;
+    flex: 1;
+}
+.navbar{
+    display: none;
+}
+.registrationOptions{
+    display: none;
+}
+.menuIcon{
+    display: flex;
+}
+
+@media screen and (min-width : 1024px) {
+
+    .header{
+        height: 70px;
+        padding: 0 170px;
+        gap : 40px
+    }
+    .logo{
+        font-size: 40px;
+    }
+    .companyName{
+        font-size: 25px;
+    }
+    .navbar{
+        display: unset;
+        font-weight: 500;
+        composes : flexOne from '../common.module.css' ;
+        gap: 10px;
+        padding: 0 20px;
+        cursor: pointer;
+    }
+    .registrationOptions{
+        composes : flexOne from '../common.module.css' ;
+        gap: 20px;
+        flex: 1;
+        justify-content: flex-end;
+        cursor: pointer;
+    }
+    .registrationOptions button {
+        background-color: #fff;
+        border: 0.5px solid orange;
+        padding: 10px 20px;
+        border-radius: 10px;
+        cursor: pointer;
+    }
+    .menuIcon{
+        display: none;
+    }
+    .logoWrapper{
+        flex: unset;
+    }
+}
